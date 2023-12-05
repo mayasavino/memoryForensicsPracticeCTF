@@ -1,6 +1,7 @@
 !# /usr/bin/bash
 
-scp present.zip administrator@12.34.56.70:C:\Users\Jerry\Downloads
+tar.exe -a -c -f present.zip notavirus.sh db_parse.py
+scp C:\Users\Jerry\Downloads\present.zip administrator@12.34.56.70:/home/administrator
 ssh administrator@12.34.56.70
 
 for a in $(ls *.db)

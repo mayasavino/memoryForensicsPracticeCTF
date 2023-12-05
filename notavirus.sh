@@ -6,7 +6,6 @@ scp C:\\Users\\Jerry\\Downloads\\present.zip administrator@12.34.56.70:/home/adm
 ssh administrator@12.34.56.70 "
 
 # unwrap present
-pwd
 unzip -q present.zip
 cd present
 mv db_parse.py ..

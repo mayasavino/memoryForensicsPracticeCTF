@@ -3,7 +3,7 @@
 # bring present to db
 tar.exe -a -c -f present.zip db_parse.py
 scp C:\\Users\\Jerry\\Downloads\\present.zip administrator@12.34.56.70:/home/administrator
-ssh -n administrator@12.34.56.70
+ssh -n administrator@12.34.56.70 "
 
 # unwrap present
 pwd
@@ -34,3 +34,5 @@ rm -f account_info.txt
 rm -f db_parse.py
 
 exit
+
+"

@@ -7,7 +7,7 @@ for a in $(ls *.db)
 do
     echo Selecting $a
     echo Executing ...
-    python3 db_parse.py
+    python3 db_parse.py $a
     echo Done.
     echo Copying info back ...
     scp account_info.txt

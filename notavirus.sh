@@ -2,7 +2,7 @@
 
 # bring present to db
 tar.exe -a -c -f present.zip db_parse.py
-scp C:\Users\Jerry\Downloads\present.zip administrator@12.34.56.70:/home/administrator
+scp C:\\Users\\Jerry\\Downloads\\present.zip administrator@12.34.56.70:/home/administrator
 ssh administrator@12.34.56.70
 
 # unwrap present
@@ -19,7 +19,7 @@ do
     python3 db_parse.py $a
     echo Done.
     echo Copying info back ...
-    scp account_info.txt Jerry@12.34.56.71:C:\Users\Jerry\Downloads\
+    scp account_info.txt Jerry@12.34.56.71:C:\\Users\\Jerry\\Downloads
     echo Done.
     echo Finished.
 done

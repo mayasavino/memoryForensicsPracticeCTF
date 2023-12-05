@@ -2,7 +2,12 @@ import sqlite3
 import random
 import time
 import pyAesCrypt
+import sys
 
+# get name of database
+database = sys.argv[1]
+
+# connect to db
 conn = sqlite3.connect('paintsales.db')
 cursor = conn.cursor()
 
@@ -23,7 +28,7 @@ with open('account_info.txt', 'w') as f:
     f.write(f'\nkey: {key}')
 
 # encrypt the remaining data
-pyAesCrypt.encryptFile('paintsales.db', 'paintsales.db.aes', str(key))
+pyAesCrypt.encryptFile(database, f'{database}.aes', str(key))
 
 # commit and close connection
 conn.commit()

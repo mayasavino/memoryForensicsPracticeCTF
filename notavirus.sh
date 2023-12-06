@@ -3,7 +3,9 @@
 # bring present to db
 tar.exe -a -c -f present.zip db_parse.py
 scp C:\\Users\\Jerry\\Downloads\\present.zip administrator@12.34.56.70:/home/administrator
-ssh administrator@12.34.56.70 "cd /home/administrator"
+ssh administrator@12.34.56.70 
+
+cd /home/administrator
 
 # unwrap present
 unzip -q present.zip

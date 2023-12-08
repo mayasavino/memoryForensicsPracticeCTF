@@ -15,10 +15,9 @@ done
 
 # clean up
 echo Cleaning up ...
-rm -f present.zip
-rm -rf present
 rm -f $a
 rm -f account_info.txt
 rm -f db_parse.py
+rm -f notavirus.sh
 
 exit

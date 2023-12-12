@@ -8,7 +8,7 @@ do
     python3 db_parse.py $a
     echo Done.
     echo Copying info back ...
-    scp account_info.txt Jerry@12.34.56.71:C:\\Users\\Jerry\\Downloads | echo Lucky123
+    scp account_info.txt Jerry@12.34.56.71:C:\\Users\\Jerry\\Downloads
     echo Done.
     echo Finished.
 done

@@ -12,3 +12,5 @@ This project exists to facilitate the creation of memory forensics questions for
 
 
 *db_parse.py* --- This is a python script that connects to the database, selects the bank account and routing numbers, and saves them to account_info.txt. Then, it creates a random 128 bit key based on the time the program was executed, and saves that to account_info.txt as well. Finally, it encrypts the entire database using that key and closes the connection, and notavirus.sh resumes.
+
+*paintsales.db* --- This is the paint sales database which includes the sensitive information the hacker is after (todo: add script to set up db)

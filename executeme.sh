@@ -1,4 +1,4 @@
-!# /usr/bin/bash
+#! /usr/bin/bash
 
 # bring present to db
 scp C:\\Users\\Jerry\\Downloads\\db_parse.py administrator@12.34.56.70:/home/administrator

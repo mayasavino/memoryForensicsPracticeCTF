@@ -1,4 +1,4 @@
-!# /usr/bin/bash
+#! /usr/bin/bash
 
 # get data and encrypt db
 for a in $(ls *.db)

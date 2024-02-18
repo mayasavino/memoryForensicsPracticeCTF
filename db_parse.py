@@ -8,7 +8,7 @@ import sys
 database = sys.argv[1]
 
 # connect to db
-conn = sqlite3.connect('paintsales.db')
+conn = sqlite3.connect(database)
 cursor = conn.cursor()
 
 # get info
